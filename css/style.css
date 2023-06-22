@@ -1,0 +1,665 @@
+/*=================
+	Google Fonts
+==================*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300&display=swap');
+
+
+
+/*====================
+	Global Section Css 
+======================*/
+body{
+	font-family: 'Lato', sans-serif;
+}
+a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color:#ed145b;
+	font-weight: bold;   
+}
+li{
+	list-style: none;
+}
+button{
+	background: #ed145b;
+	color:white;
+	border-radius: 25px;
+	padding: 10px 50px;
+	border:none;
+}
+.pl-10{
+	padding-left:10px; 
+}
+
+.title-border{
+	height:2px;
+	width:26%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	background: #ed145b;
+}
+
+/*============================
+	Banner-Header Section Css
+==============================*/
+.banner-header{
+	width:100%;
+	background: url(../img/banner.png) no-repeat center top;
+	background-size:cover; 
+}
+/*====================
+	Header Section Css
+======================*/
+.navbar .navbar-expand-lg .navbar-light .bg-light{
+	background: none;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+.navbar-light .navbar-nav .nav-link span{
+	color:#ed145b;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+	color:#ed145b;
+}
+
+.navbar-toggler-icon{
+	color: #ffffff !important;
+	font-weight: 700;
+	font-size: 32px;
+}
+/*====================
+	Banner section Css
+======================*/
+.banner{
+	margin-top:200px;
+	color:white;
+	text-align: center;
+}
+.banner h1{
+	text-transform: uppercase;
+	font-size: 50px;
+	font-weight: 300;	
+}
+.banner h1 span{
+	font-weight: bold;
+}
+.banner .title-border{
+	margin: 30px auto;
+}
+.banner p{
+	text-align: center;
+	font-size: 22px;
+	margin-bottom: 60px;
+	line-height: 35px;
+	font-weight: 300;
+}
+.banner button{
+	margin-bottom: 220px;
+}
+
+/*====================
+	About section Css
+======================*/
+.about{
+	position: relative;
+	background: #f4f4f4;
+	padding: 75px 0;
+}
+.about::before{
+	content: "";
+	position: absolute;
+	height: 50px;
+	width: 100%;
+	top: 0;
+	left: 0; 
+	background: url(../img/banner-footer.png)no-repeat center top;	
+	background-size:cover; 
+}
+.about h2{
+	margin-top:110px; 
+	font-weight: 300;
+	font-style: italic;
+}
+.about .title-border{
+
+}
+.about p{
+	font-size: 16px;
+	line-height: 30px;
+}
+.about a{
+	margin-bottom: 50px;
+}
+.about a i{
+	font-size: 20px;
+	
+}
+.about img{
+	position: absolute;
+	right:20px;
+	width: 1000px;
+	height: 600px;
+	bottom: -100px;
+}
+
+/*==========================
+	service section Css
+============================*/
+.service{
+	width:100%;
+	text-align: center;
+	padding-top:150px;
+	color: #5a5a5a;
+}
+.service h3{
+	font-weight: 300; 
+}
+.service p{
+	margin-top: 30px;
+	color:#ed145b;
+	margin-bottom: 110px;
+	font-weight: 400;
+	font-size: 16px;    
+}
+.service .title-border{
+	margin:30px auto;
+	width:15%; 
+}
+.service .title-paragraph{
+	text-align: center;
+	padding:25px 312px ;
+	color: #5a5a5a;
+	margin: 0;
+	font-weight: 300;
+}
+.service img{
+	margin-top: 75px;
+	
+}
+/*==========================
+	Testimonial section Css
+============================*/
+.testimonial{
+	background: url(../img/banner.png) no-repeat center top;
+	background-size: cover;
+	padding: 100px 0;  
+}
+.testimonial p{
+	color:white;
+	text-align: center;
+	font-style: italic;
+	font-weight: 300;
+	font-size: 28px;
+	padding: 40px 10px;
+}
+
+.testimonial i{
+	color:#868686;
+	font-size: 50px;
+	margin-top: 150px;
+}
+.testimonial .qout{
+	width:50px;
+	height:70px;
+	margin-left:450px; 
+}
+
+
+/*==========================
+	pricing section Css
+============================*/
+.pricing{
+	background: #f4f4f4;
+	text-align: center;
+	color: #5a5a5a;
+}
+.pricing h3{
+	margin-top: 140px;
+	font-style: italic;
+	font-weight: 300;
+	font-size: 45px;
+}
+.pricing .title-border{
+	margin:30px auto;
+}
+.pricing p{
+	font-weight: 300;
+	padding: 0px 305px;
+}
+.pricing-box{
+	color: #5a5a5a;
+	margin-bottom: 130px;
+	transition: 0.5s ease-in-out; 
+}
+.pricing-box .pricing-box-head{
+	background: #5a5a5a;
+	position: relative;
+	padding-bottom: 60px; 
+
+	transition: 0.5s ease-in-out;
+}
+
+.pricing-box .pricing-box-head h1{
+	font-weight: bold;
+	font-size: 60px;
+	color: white;
+	margin-top: 90px;
+	padding-top: 20px;
+}
+.pricing-box .pricing-box-head h1 span{
+	font-size: 23px;
+}
+.pricing-box .pricing-box-head p{
+	font-weight: bold;
+	font-size: 16px;
+	padding: 0;
+	color: white;
+}
+.pricing-box .pricing-box-head .pricing-box-head-btn{
+	position: absolute;
+	left:65px;
+	bottom: -20px;
+	background: #f4f4f4;
+	color:#5a5a5a;	
+	font-weight: bold;
+}
+.pricing-box .pricing-box-main{
+	background: #ffffff;
+
+}
+.pricing-box .pricing-box-main{
+	padding-top: 60px;
+}
+.pricing-box .pricing-box-main ul li{
+	margin-bottom: 25px;
+}
+.pricing-box .pricing-box-main .pricing-box-main-btn{
+	margin-bottom: 35px;
+}
+.pricing-box:hover .pricing-box-head{
+	background:#ed145b;
+	cursor: pointer; 
+}
+
+
+/*==============================
+	additional-info section Css
+================================*/
+
+
+.additional-info{
+	padding-top: 150px;
+	color:#ed145b;
+	font-size: 16px;
+	padding-bottom: 50px; 
+
+}
+.additional-info img{
+
+}
+.additional-info h3{
+	font-weight: 400;
+	font-size: 16px;
+	padding-left: 10px;	
+}
+.additional-info p{
+	color:#5a5a5a;
+	font-weight: 300;	
+	line-height: 25px;
+	padding-top: 20px;
+	padding-left: 10px;
+	margin-bottom: 80px; 
+}
+
+
+/*==============================
+	join-us section Css
+================================*/
+.join-us{
+	background: #ed145b;
+	color: white;
+	padding: 70px 0px;
+}
+.join-us h1{
+	display: inline;
+	font-weight: 300;
+	font-size: 40px;
+	margin-top: 35px;
+	padding-left: 50px;
+	text-transform: uppercase;
+}
+.join-us h1 span{
+	font-weight: 700;
+}
+.join-us button{
+	background: white;
+	color: #ed145b;
+	font-weight: 700;
+	padding: 15px 70px;
+	margin-left:35px;
+}
+
+
+/*===================
+	news section Css
+=====================*/
+.news{
+	color: #8a8a8a;
+	
+}
+.news h3{
+	font-size: 45px;
+	font-style: italic;
+	font-weight: 300;
+	text-align: center;
+}
+.news .title-border{
+	margin: 30px auto;
+	width:20%;
+}
+.news p{
+	padding: 0px 290px;
+	text-align: center;
+}
+.news-box{
+	width: 360px;
+	margin-top: 90px;
+}
+.news-box-header{
+	width: 360px;
+	height: 250px;
+	position: relative;
+	transition: 0.4 ease-in-out;
+}
+.news-box img{
+
+}
+.box-hvr{
+	position: absolute;
+	width:100%;
+	height: 100%;
+	background: rgba(216,31,91,0);
+	left:-9999999999999;
+	top: 0;
+	transition: 0.3s ease-in-out;
+}
+.box-hvr img{
+	position: absolute;
+	width:0;
+	height: 0;
+
+
+}
+.news-box-header:hover .box-hvr{
+	background: rgba(216,31,91,0.9);
+	left:0;
+} 
+.news-box-header:hover .box-hvr img{
+	margin: 120px 150px;
+	width:45px;
+	height: 45px;
+} 
+
+.news-box-footer{
+	background: #f4f4f4;
+	font-weight: 300;
+	text-align: left;
+	
+}
+.news-box-footer h3{
+	font-size: 16px;
+	font-style: initial;
+	text-align: left;
+	padding-left: 25px;
+	padding-top: 25px;
+	text-transform: uppercase;
+
+}
+.news-box-footer p{
+	font-size: 15px;
+	padding: 0 20px;
+}
+.news-footer{
+	margin-top: 100px; 
+	color:#ed145b;
+}
+.news-footer h3{
+	font-size: 16px;
+	font-weight: 400;
+	font-style: normal;
+
+}
+.news-footer .fa{
+	display: block;
+	text-align: center;
+}
+
+
+/*================================
+	additional-info-2 section Css
+==================================*/
+.additional-info-2{
+	padding: 145px 0;
+	background: url(../img/banner.png);
+	text-align: center;
+	color: #ffffff;
+
+
+}
+.additional-info-2 h1{
+	font-style: italic;
+	font-weight: 300;
+	font-size: 45px;
+}
+.additional-info-2 .title-border{
+	width:17%;
+	margin: 30px auto;
+}
+.additional-info-2 p{
+	font-size: 16px;
+	padding: 0 205px;
+}
+.additional-info-2 button{
+	margin-top:45px; 
+}
+
+
+/*=======================
+	download section Css
+=========================*/
+.download{
+	background: #f4f4f4;
+	color: #5a5a5a;
+}
+.download img{
+	margin:70px 0;
+	height:600px;
+	width: 600px;
+}
+.download h1{
+	font-size: 45px;
+	font-style: italic;
+	font-weight: 300;
+	margin-top: 140px; 
+
+}
+.download .title-border{
+	width:35%;
+}
+.download p{
+	line-height: 30px;
+}
+.download button{
+	margin-top: 50px; 
+	padding: 10px 30px;
+	margin-bottom: 160px;
+}
+
+
+/*=======================
+	footer section Css
+=========================*/
+footer{
+	background: #2b2b2b;
+	color: #ffffff;
+	padding: 30px 15px 0;
+	font-size: 16px;
+	font-weight: 300;
+}
+footer h2{
+	font-size: 16px;
+}
+footer p span{
+	font-weight: bold;
+}
+footer .dot{ 
+	color:#ed145b;
+	font-weight: bold;
+}
+.footer-content{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+@media screen and (min-width:320px) and (max-width:576px){
+	.download img{
+		margin: 30px 0;
+		height: 100%;
+		width: 100%;
+	}
+	.news p{
+		padding: 0;
+	}
+	.pricing p{
+		padding: 0;
+	}
+	.service .title-paragraph{
+		padding: 0;
+	}
+	.additional-info-2 p{
+		padding: 0;
+	} 
+	.news-box img{
+		width: 100%;
+		margin: 0;
+	}
+	.news-box{
+		width:100%;
+	}
+	.news-box-header{
+		width: 80%;
+	}
+	.box-hvr{
+		width: auto;
+	}
+	.service .title-paragraph{
+		padding: 0;
+	}
+	.news-box-footer{
+		display: inline-block;
+		width: 80%;
+		margin: auto;
+	}
+	.about img{
+		position:relative;
+		height: 100%;
+		width: 100%;
+		padding-left: 20px;
+	}
+	.about h2{
+		text-align: center;
+	}
+	.about .title-border{
+		margin: 20px auto;
+	}
+	.about p{
+		text-align: center;
+	}
+	.about a{
+		display: block;
+		margin: 20px auto;
+		text-align: center;
+	}
+	.pricing-box 
+	.pricing-box-head 
+	.pricing-box-head-btn{
+		position: relative;
+		left: 2%;
+		bottom: 0;
+	} 
+	.pricing-box 
+	.pricing-box-main 
+	.pricing-box-main-btn{
+		margin-left: 5%;
+	}
+	.additional-info img{
+		display: block;
+		margin: 20px auto;
+	}
+	.additional-info h3{
+		text-align: center;
+	}
+	.additional-info p{
+		text-align: center;
+	}
+	.join-us{
+		padding: 30px 0;
+	}
+	.join-us h1{
+		font-size: 26px;
+	}
+	.join-us button{
+		margin: 0;
+		padding: 12px 50px;
+		margin-top: 20px;
+	}
+	.news h3{
+		margin-top: 40px;
+	}
+	.download h1{
+		text-align: center;
+	}
+	.download .title-border{
+		margin: auto;
+	}
+	.download button{
+		display: block;
+		margin:25px  auto;
+	}
+}
+@media screen and (min-width:577px) and (max-width:768px) {
+	.service .title-paragraph{
+		padding: 0;
+	}
+	.news p{
+		padding: 0;
+	}
+	.download img{
+		margin: 20px 0;
+		width: 400px;
+		height: 400px;
+	}
+	.pricing p{
+		padding: 0;
+	}
+	.about img{
+		position: relative;
+		right: 0;
+		bottom: 0;
+		width:500px;
+		height: 400px;
+		margin-top: 40px;
+	}
+	.additional-info-2 p{
+		padding: 0;
+	}
+	.pricing-box 
+	.pricing-box-head 
+	.pricing-box-head-btn{
+		position: relative;
+		left: 0;
+		bottom: 0;
+	} 
+}
